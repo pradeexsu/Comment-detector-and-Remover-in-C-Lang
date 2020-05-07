@@ -1,5 +1,5 @@
 # Comment-Remover-in
-  ![](https://lh3.googleusercontent.com/proxy/UfChqqd8TUhtXyzJnu4pZgspkiHl--OXAa7ymQ5DXyOBjjLOndupay2_RAkuPyufHuEw0uheco7iXHRgYl796GwTcJxNwVV7APzz9XJMZY_3slU)
+  ![](https://github.com/sutharp777/Comment-detector-and-Remover-in-C-Lang/blob/master/temp/c-logo.png)
 
  C/C++ and Java comment eliminator writern in C-language
 
