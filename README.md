@@ -1,4 +1,6 @@
-# Comment-Remover-in-C-Lang
+# Comment-Remover-in
+  ![](https://lh3.googleusercontent.com/proxy/UfChqqd8TUhtXyzJnu4pZgspkiHl--OXAa7ymQ5DXyOBjjLOndupay2_RAkuPyufHuEw0uheco7iXHRgYl796GwTcJxNwVV7APzz9XJMZY_3slU)
+
  C/C++ and Java comment eliminator writern in C-language
 
  step 1:
