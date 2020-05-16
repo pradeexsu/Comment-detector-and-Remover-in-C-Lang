@@ -8,25 +8,29 @@ int main()
 	
 	while ((c = fgetc(in)) != EOF )
 	{
-		if(c=='/'){
+		if (c=='/')
+		{
 			int flag = 0;
 			c = fgetc(in);
-			if(c=='/'){
+			if (c=='/')
+			{
 				flag = 1;
-				while((c=fgetc(in))!='\n');
-			///	break;
-				
+				while ((c=fgetc(in)) != '\n');
+			///	break;	
 			}
-			else if(c=='*'){
+			else if (c=='*')
+			{
 				flag=1;
-				while((c=fgetc(in))!=EOF){
-					if((c=fgetc(in))=='*' && (c=fgetc(in))=='/'){
+				while ((c = fgetc(in)) != EOF)
+				{
+					if ((c = fgetc(in)) == '*' && (c = fgetc(in)) == '/')
+					{
 						c = '\n';
 						break;
 					}				
 				}
 			}
-			if(!flag)
+			if (!flag)
 				fputc('/',out);
 		}
 	fputc(c,out);
