@@ -1,14 +1,14 @@
 # Comment-Remover-in
-.                                              .
-  ![](https://github.com/sutharp777/Comment-detector-and-Remover-in-C-Lang/blob/master/temp/c-logo.png)
 
- C/C++ and Java comment eliminator
+ <img align="right" src="https://github.com/sutharp777/Comment-detector-and-Remover-in-C-Lang/blob/master/temp/c-logo.png">
+
+### C/C++ and Java comment eliminator
 
  step 1:
  
  ![](https://github.com/sutharp777/Comment-detector-and-Remover-in-C-Lang/blob/master/run.png)
  
- # in.c
+ ## in.c
  
     /// this is c program to remove the comment
     #include<stdio.h>
@@ -23,7 +23,7 @@
     // thank you
     
     
-  # out.c
+  ## out.c
   
     #include<stdio.h>
     int main(){
