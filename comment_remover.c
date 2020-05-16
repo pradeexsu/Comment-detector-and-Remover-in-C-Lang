@@ -1,16 +1,20 @@
 #include"stdio.h"
-int main(){
+
+int main()
+{
 	FILE* in = fopen("in.c","r");
 	FILE* out = fopen("out.c","w");
 	char c;
-	while((c=fgetc(in)) != EOF ){
+	
+	while ((c = fgetc(in)) != EOF )
+	{
 		if(c=='/'){
 			int flag = 0;
 			c = fgetc(in);
 			if(c=='/'){
 				flag = 1;
 				while((c=fgetc(in))!='\n');
-///				break;
+			///	break;
 				
 			}
 			else if(c=='*'){
