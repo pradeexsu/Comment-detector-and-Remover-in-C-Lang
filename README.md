@@ -1,6 +1,6 @@
 <img align="right" src="https://github.com/sutharp777/Comment-detector-and-Remover-in-C-Lang/blob/master/temp/c-logo.png">
 
-# Comment-Remover-In
+## Comment-Remover-In
 <br>
 <br>
 
