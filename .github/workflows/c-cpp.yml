@@ -8,22 +8,27 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
     - name: running
       run: gcc comment_remover.c -o a
-    - name: make
-      run: ./a
-    - name: show outputs
-      run: cat out.c
     - name: Codecov
       uses: codecov/codecov-action@v1.3.1
       with:
         token: a4717f23-16d1-42df-b96c-3c6068bb60f4
         files: comment_remover.c 
+      
+    - name: make
+      run: ./a
+    - name: show outputs
+      run: cat out.c
+        
+        
+        
+        
+        
         
         
         
