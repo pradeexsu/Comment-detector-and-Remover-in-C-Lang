@@ -12,17 +12,18 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - uses: codecov/codecov-action@v1    
     - name: running
       run: gcc comment_remover.c -o a
     - name: make
       run: ./a
-    - name: show outputs
-      run: cat out.c
+    - name: Codecov
+      run: gcov comment_remover.c
     - name: Codecov
       run: bash <(curl -s https://codecov.io/bash)
-        
-        
-        
+    - name: show outputs
+      run: cat out.c     
+
         
         
         
